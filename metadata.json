@@ -1,0 +1,8 @@
+{
+  "name": "East Wake Fitness",
+  "description": "Premium, high-performance gym and fitness center in Zebulon, NC (East Wake area). Dark luxury aesthetic with neon accents, cinematic visuals, and conversion-focused design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
