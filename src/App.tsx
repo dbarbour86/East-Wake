@@ -7,6 +7,12 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import { useEffect } from 'react';
 import Home from './pages/Home';
 import About from './pages/About';
+import GroupClasses from './pages/GroupClasses';
+import PersonalTraining from './pages/PersonalTraining';
+import Nutrition from './pages/Nutrition';
+import SilverSneakers from './pages/SilverSneakers';
+import MassageTherapy from './pages/MassageTherapy';
+import Contact from './pages/Contact';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import { AnimatePresence } from 'motion/react';
@@ -31,14 +37,13 @@ export default function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
-              <Route path="/memberships" element={<div className="pt-32 text-center h-screen">Memberships Page (Template)</div>} />
-              <Route path="/classes" element={<div className="pt-32 text-center h-screen">Classes Page (Template)</div>} />
-              <Route path="/personal-training" element={<div className="pt-32 text-center h-screen">Personal Training Page (Template)</div>} />
-              <Route path="/schedule" element={<div className="pt-32 text-center h-screen">Schedule Page (Template)</div>} />
-              <Route path="/trainers" element={<div className="pt-32 text-center h-screen">Trainers Page (Template)</div>} />
-              <Route path="/testimonials" element={<div className="pt-32 text-center h-screen">Testimonials Page (Template)</div>} />
-              <Route path="/contact" element={<div className="pt-32 text-center h-screen">Contact Page (Template)</div>} />
-              <Route path="/free-trial" element={<div className="pt-32 text-center h-screen">Free Trial Page (Template)</div>} />
+              <Route path="/classes" element={<GroupClasses />} />
+              <Route path="/personal-training" element={<PersonalTraining />} />
+              <Route path="/nutrition" element={<Nutrition />} />
+              <Route path="/silver-sneakers" element={<SilverSneakers />} />
+              <Route path="/massage-therapy" element={<MassageTherapy />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/free-trial" element={<Contact />} />
             </Routes>
           </AnimatePresence>
         </main>

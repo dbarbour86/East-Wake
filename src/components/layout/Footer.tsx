@@ -16,8 +16,7 @@ export default function Footer() {
             </span>
           </Link>
           <p className="text-zinc-300 text-sm leading-relaxed">
-            The premier fitness destination in Wendell, NC. We combine elite training, 
-            premium equipment, and a supportive community to help you reach your peak performance.
+            The premier strength and condition base in Zebulon, NC. Locally owned and operated since 2003, providing high performance equipment, classes, and personalized coaching.
           </p>
           <div className="flex gap-4">
             <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-neon hover:text-black transition-all">
@@ -33,28 +32,29 @@ export default function Footer() {
         <div>
           <h4 className="font-display font-bold uppercase tracking-widest text-sm mb-6 text-neon">Site Map</h4>
           <ul className="flex flex-col gap-4">
-            <li><Link to="/about" className="text-zinc-300 hover:text-white transition-colors text-sm uppercase">About Us</Link></li>
-            <li><Link to="/memberships" className="text-zinc-300 hover:text-white transition-colors text-sm uppercase">Memberships</Link></li>
-            <li><Link to="/classes" className="text-zinc-300 hover:text-white transition-colors text-sm uppercase">Group Classes</Link></li>
-            <li><Link to="/personal-training" className="text-zinc-300 hover:text-white transition-colors text-sm uppercase">Personal Training</Link></li>
-            <li><Link to="/trainers" className="text-zinc-300 hover:text-white transition-colors text-sm uppercase">Our Trainers</Link></li>
+            <li><Link to="/about" className="text-zinc-300 hover:text-white transition-colors text-[11px] uppercase tracking-wider font-extrabold">About</Link></li>
+            <li><Link to="/classes" className="text-zinc-300 hover:text-white transition-colors text-[11px] uppercase tracking-wider font-extrabold">Classes</Link></li>
+            <li><Link to="/personal-training" className="text-zinc-300 hover:text-white transition-colors text-[11px] uppercase tracking-wider font-extrabold">Training</Link></li>
+            <li><Link to="/nutrition" className="text-zinc-300 hover:text-white transition-colors text-[11px] uppercase tracking-wider font-extrabold">Nutrition</Link></li>
+            <li><Link to="/silver-sneakers" className="text-zinc-300 hover:text-white transition-colors text-[11px] uppercase tracking-wider font-extrabold">Silver Sneakers</Link></li>
+            <li><Link to="/massage-therapy" className="text-zinc-300 hover:text-white transition-colors text-[11px] uppercase tracking-wider font-extrabold">Massage</Link></li>
           </ul>
         </div>
 
         {/* Contact info */}
         <div>
           <h4 className="font-display font-bold uppercase tracking-widest text-sm mb-6 text-neon">Contact Us</h4>
-          <ul className="flex flex-col gap-4">
-            <li className="flex items-center gap-3 text-zinc-300 text-sm">
-              <MapPin size={18} className="text-neon" />
+          <ul className="flex flex-col gap-4 grid">
+            <li className="flex items-start gap-3 text-zinc-300 text-sm">
+              <MapPin size={18} className="text-neon flex-shrink-0 mt-0.5" />
               <span>1015 West Gannon Avenue, Zebulon, NC 27597</span>
             </li>
             <li className="flex items-center gap-3 text-zinc-300 text-sm">
-              <Phone size={18} className="text-neon" />
-              <span>(919) 269-0524</span>
+              <Phone size={18} className="text-neon flex-shrink-0" />
+              <span>919-404-0110</span>
             </li>
             <li className="flex items-center gap-3 text-zinc-300 text-sm">
-              <Mail size={18} className="text-neon" />
+              <Mail size={18} className="text-neon flex-shrink-0" />
               <span>eastwakefitness@gmail.com</span>
             </li>
           </ul>

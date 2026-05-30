@@ -6,11 +6,11 @@ import { cn } from '../../lib/utils';
 
 const navLinks = [
   { name: 'About', href: '/about' },
-  { name: 'Memberships', href: '/memberships' },
   { name: 'Classes', href: '/classes' },
-  { name: 'Personal Training', href: '/personal-training' },
-  { name: 'Schedule', href: '/schedule' },
-  { name: 'Trainers', href: '/trainers' },
+  { name: 'Training', href: '/personal-training' },
+  { name: 'Nutrition', href: '/nutrition' },
+  { name: 'Silver Sneakers', href: '/silver-sneakers' },
+  { name: 'Massage', href: '/massage-therapy' },
   { name: 'Contact', href: '/contact' },
 ];
 

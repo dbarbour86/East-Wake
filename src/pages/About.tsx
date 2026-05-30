@@ -6,26 +6,20 @@ export default function About() {
   return (
     <PageLayout 
       title="The Standard" 
-      subtitle="Setting the bar for fitness in Wendell"
+      subtitle="Setting the bar for fitness in Zebulon"
       heroImage="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?q=80&w=2069&auto=format&fit=crop"
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center mb-32">
         <div>
           <h2 className="font-display text-4xl font-black uppercase italic mb-8">
-            More than just a <span className="text-neon">Gym</span>
+            Locally Owned <span className="text-neon">Since 2003</span>
           </h2>
           <div className="space-y-6 text-zinc-400 leading-relaxed font-light">
             <p>
-              Founded in 1999, East Wake Fitness Center has been the cornerstone of strength 
-              and health in Zebulon for over two decades. We've weathered the trends, 
-              staying true to what works: high-quality equipment, a focused atmosphere, 
-              and a commitment to our members' results.
+              East Wake Fitness Center has been locally owned and operated in Zebulon, NC since 2003. Our mission is to provide a friendly, clean, and comprehensively equipped health facility where our local members can enjoy exercising together with family and friends.
             </p>
             <p>
-              Our facility is designed to bridge the gap between heavy-duty strength 
-              training and maintaining a modern, healthy lifestyle. With an array of 
-              cardiovascular, circuit, and strength machines from brands like Cybex 
-              and Precor, we ensure our members have the tools to redefine their potential.
+              All gyms have standard equipment and muscle conditioning tools to help you get more fit, but physical machinery is rarely the differentiator between reaching your fitness goals and stalling. The difference is in the support, advice, safety, and coaching that you receive along the way. That is exactly what we strive to provide you with at East Wake Fitness Center every single day.
             </p>
           </div>
         </div>
